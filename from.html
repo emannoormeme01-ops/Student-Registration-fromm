@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    </style>
+</head>
+<body  style="background-color: rgb(235, 199, 152);">
+<div>
+    <center>
+        <h1>Student Registration Form</h1>
+  <form action="#" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td class="label">Student name :</td>
+                <td><input type="text" name="fname" placeholder="Full name" style="width:150px"></td>
+            </tr>
+            
+            <tr>
+                <td class="label">Father's name :</td>
+                <td><input type="text" name="father" style="width:300px"></td>
+            </tr>
+            
+            <tr>
+                <td class="label">Date of birth :</td>
+                <td class="dob-group">
+                    <input type="text" name="day" placeholder="Day">
+                    <input type="text" name="month" placeholder="Month">
+                    <input type="text" name="year" placeholder="Year">
+                    </td>
+            </tr>
+            
+            <tr>
+                <td class="label">Mobile no. :</td>
+                <td class="mobile-group">
+                    <input type="text" value="+92" readonly>
+                    <span>-</span>
+                    <input type="text" name="mobile" placeholder="3XX-XXXXXXX">
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="label">Email id :</td>
+                <td><input type="email" name="email" style="width:300px"></td>
+            </tr>
+            
+            <tr>
+                <td class="label">Password :</td>
+                <td><input type="password" name="password" style="width:300px"></td>
+            </tr>
+             <tr>
+                <td class="label"> Confirm  Password :</td>
+                <td><input type="password" name=" Confirm password" style="width:300px"></td>
+            </tr>
+            
+            
+            <tr>
+                <td class="label">Gender :</td>
+                <td class="radio-group">
+                    <label><input type="radio" name="gender" value="Male"> Male</label>
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="label">Colification:</td>
+                <td class="checkbox-group">
+                    <label><input type="checkbox" name="dept" value="MIDDLE">MIDDLE</label>
+                    <label><input type="checkbox" name="dept" value="MATRIC">MATRIC</label>
+                    <label><input type="checkbox" name="dept" value="INTER PASS">INTER PASS</label> 
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="label">Course :</td>
+                <td>
+                    <select name="course">
+                        <option>----------------Select Current Course's----------------</option>
+                        <option>Web Development</option>
+                        <option>Graphics Design</option>
+                        <option>Computer Operator</option>
+                        <option>English Language</option>
+                        <option>Online markiting</option>
+                    </select>
+                </td>
+            </tr>
+              <tr>
+                <td class="label">Student CNIC/B-From:</td>
+                <td><input type="file" name="photo" accept="image/*"></td>
+            </tr>
+            
+            <tr>
+                <td class="label">Matric Marksheet:</td>
+                <td><input type="file" name="photo" accept="image/*"></td>
+            </tr>
+             <tr>
+                <td class="label">XI|XII Year Marksheet:</td>
+                <td><input type="file" name="photo" accept="image/*"></td>
+            </tr>
+            
+            
+            
+            <tr>
+                <td class="label">City :</td>
+                <td><input type="text" name="city" style="width:400px"></td>
+            </tr>
+            <tr>
+                <td class="label">Full Adress :</td>
+                <td><input type="text" name="Full Adress " style="width:400px"></td>
+            </tr>
+        </table>
+        
+        <div class="btn-row">
+            <button type="submit" class="btn">Submit</button>
+            <button type="reset" class="btn" style="background:#888">Reset</button>
+        </div>
+    </form>
+</div>
+</center>
+</body>
+</html>
